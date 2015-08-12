@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>audio 1</title>
+		<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,500,600' rel='stylesheet' type='text/css'>
+    </head>
+
+	<body class = "body">
+		<div class = "room" data-puzzle>
+			<div wall = "puzzle-wall-left">
+			</div>
+             <div class = "ceiling" data-puzzle-ceiling data-room-audio-1-ceiling>
+            </div>
+            <a href = "../../hallway/hallway_1/index.html">
+                <div class = "floor" data-puzzle-floor data-room-audio-1-floor>
+                </div>
+            </a>
+			<div class = "puzzle-room-center">
+				<button class = "button" data="data-button-drop-left">
+				</button>
+				<button class = "button" data="data-button-drop-right">
+				</button>
+			</div>
+			<div wall = "puzzle-wall-right">
+			</div>
+		</div>
+        <audio autoplay loop>
+            <source src="../../sound/water_drop_stereo.mp3">
+        </audio>
+	<!-- <div class = "door"> <a href = "../../hallway/hallway_1/index.html">Hallway 1</a></div>
+	<button class = "drop_button">drop left</button>
+	<button class = "drop_button">drop right</button> -->
+	</body>
+</html>
+<script src="../../scripts/jquery-2.1.4.js"></script>
+<script src="../../scripts/scripts.js"></script>

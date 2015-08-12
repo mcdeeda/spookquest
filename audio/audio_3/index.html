@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>audio 3</title>
+		<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,500,600' rel='stylesheet' type='text/css'>
+    </head>
+
+	<body class = "body">
+		<div class = "room" data-puzzle>
+			<div wall = "puzzle-wall-left">
+			</div>
+             <div class = "ceiling" data-puzzle-ceiling data-room-audio-3-ceiling>
+            </div>
+            <a href = "../../hallway/hallway_3/index.html">
+                <div class = "floor" data-puzzle-floor data-room-audio-3-floor>
+                </div>
+            </a>
+			<div class = "puzzle-room-center">
+                <div class = "time-input" data-room-time>
+                    <input class = "input_time" data="data-input-time-1" maxlength="2">
+                    <span data="data-input-time-break">:</span>
+                    <input class = "input_time" data="data-input-time-2" maxlength="2">
+                </div>
+			</div>
+			<div wall = "puzzle-wall-right">
+			</div>
+            <audio autoplay loop>
+                <source src="../../sound/clock_tick.mp3">
+            </audio>
+		</div>
+	</body>
+</html> <script src="../../scripts/jquery-2.1.4.js"></script> <script src="../../scripts/scripts.js"></script>
+

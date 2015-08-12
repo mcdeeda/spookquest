@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>video 1</title>
+		<link rel="stylesheet" type="text/css" href="../../css/styles.css">
+        <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,300,500,600' rel='stylesheet' type='text/css'>
+    </head>
+
+	<body class = "body">
+		<div class = "room" data-puzzle>
+            
+			<div wall = "puzzle-wall-left">
+			</div>
+            <div class = "ceiling" data-puzzle-ceiling data-room-video-ceiling>
+                <video  class = "vid" muted loop data-video-sky>
+                    <source src="../../vid/sky.webm" data-video-webm>
+                    <source src="../../vid/sky.mp4">
+                    video not supported in your browser
+                </video>
+            </div>
+            <a href = "../../hallway/hallway_1/index.html">
+            <div class = "floor" data-puzzle-floor data-room-video-1-floor>
+            </div>
+            </a>
+            <div class = "puzzle-room-center">
+                <video  class = "vid" autoplay loop data-video-birds>
+                    <source src="../../vid/video_1.webm" data-video-birds-webm>
+                    <source src="../../vid/video_1.mp4" data-video-birds-mp4>
+                    video not supported in your browser
+                </video>
+            </div>
+			<div wall = "puzzle-wall-right">
+			</div>
+		</div>
+        
+        
+	
+	</body>
+</html>
+<script src="../../scripts/jquery-2.1.4.js"></script>
+<script src="../../scripts/scripts.js"></script>
